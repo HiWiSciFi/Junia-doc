@@ -10,32 +10,37 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
 	{
-		title: 'Easy to Use',
-		Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+		title: 'Advanced Audio',
+		Svg: require('@site/static/img/audio.svg').default,
 		description: (
 			<>
-				Docusaurus was designed from the ground up to be easily installed and
-				used to get your website up and running quickly.
+				Impressive 3D Audio and simple integration thanks to the OpenAL API.
+				Handle Audio Input or Output with a simple and abstract API that has been directly
+				integrated with Junia Components and a global audio mixer to keep your audio channels
+				organized.
 			</>
 		),
 	},
 	{
-		title: 'Focus on What Matters',
+		title: 'Easy to Use',
 		Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
 		description: (
 			<>
-				Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-				ahead and move your docs into the <code>docs</code> directory.
+				The Junia API is focused around what matters to you as a creator instead of technological
+				specifics while still exposing as much as possible of the low-level API. Use tools of your
+				choosing to create assets and write code and let the engine take care of the rest.
 			</>
 		),
 	},
 	{
-		title: 'Powered by React',
-		Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+		title: 'Powered by Vulkan',
+		Svg: require('@site/static/img/vulkan.svg').default,
 		description: (
 			<>
-				Extend or customize your website layout by reusing React. Docusaurus can
-				be extended while reusing the same header and footer.
+				Fully portable games with low-level access to rendering thanks to the
+				verbose Vulkan API. Load 3D-Models on the fly and use the simple `JESL`
+				shader language or your own SPIR-V shaders to bring everything to the
+				screen fast and easy.
 			</>
 		),
 	},

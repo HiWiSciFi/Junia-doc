@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-	title: 'Junia Docs',
+	title: 'Junia',
 	tagline: 'Games done easy.',
 	favicon: 'img/favicon.ico',
 
@@ -64,7 +64,7 @@ const config = {
 			// Replace with your project's social card
 			image: 'img/docusaurus-social-card.jpg',
 			navbar: {
-				title: 'Junia Docs',
+				title: 'Junia',
 				logo: {
 					alt: 'Junia Logo',
 					src: 'img/logo.svg',
