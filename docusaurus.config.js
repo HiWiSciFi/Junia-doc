@@ -7,19 +7,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
 	title: 'Junia Docs',
-	tagline: 'Dinosaurs are cool',
+	tagline: 'Games done easy.',
 	favicon: 'img/favicon.ico',
 
 	// Set the production url of your site here
-	url: 'https://your-docusaurus-test-site.com',
+	url: 'https://HiWiSciFi.github.io',
 	// Set the /<baseUrl>/ pathname under which your site is served
 	// For GitHub pages deployment, it is often '/<projectName>/'
-	baseUrl: '/',
+	baseUrl: '/Junia/',
 
 	// GitHub pages deployment config.
 	// If you aren't using GitHub pages, you don't need these.
-	organizationName: 'facebook', // Usually your GitHub org/user name.
-	projectName: 'docusaurus', // Usually your repo name.
+	organizationName: 'HiWiSciFi', // Usually your GitHub org/user name.
+	projectName: 'Junia', // Usually your repo name.
 
 	onBrokenLinks: 'throw',
 	onBrokenMarkdownLinks: 'warn',
@@ -66,7 +66,7 @@ const config = {
 			navbar: {
 				title: 'Junia Docs',
 				logo: {
-					alt: 'My Site Logo',
+					alt: 'Junia Logo',
 					src: 'img/logo.svg',
 				},
 				items: [
@@ -74,11 +74,11 @@ const config = {
 						type: 'doc',
 						docId: 'intro',
 						position: 'left',
-						label: 'Tutorial',
+						label: 'Docs',
 					},
 					{to: '/blog', label: 'Blog', position: 'left'},
 					{
-						href: 'https://github.com/facebook/docusaurus',
+						href: 'https://github.com/HiWiSciFi/Junia',
 						label: 'GitHub',
 						position: 'right',
 					},
@@ -91,7 +91,7 @@ const config = {
 						title: 'Docs',
 						items: [
 							{
-								label: 'Tutorial',
+								label: 'Docs',
 								to: '/docs/intro',
 							},
 						],
